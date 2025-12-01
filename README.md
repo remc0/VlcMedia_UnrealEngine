@@ -20,14 +20,21 @@ The VlcMedia (libVLC) Plugin for Unreal Engine is currently focused on stable Wi
 🖥️ Supported Operating Systems
 Platform	Status	Notes
 Windows 10 / Windows 11 (64-bit)	✅ Officially Supported	Fully tested in Editor + Packaged builds. Recommended.
+
 macOS	❌ Not Supported	No prebuilt libVLC binaries provided; untested.
+
 Linux	⚠️ Not Supported	May work with custom libVLC builds, but not tested.
+
 Android	❌ Not Supported	Requires separate libVLC integration (not yet implemented).
+
 iOS	❌ Not Supported	Unreal + libVLC on iOS requires significant additional work.
+
 🧩 Supported Unreal Engine Versions
 Unreal Version	Status	Notes
 5.4.4	✅ Primary Target	Latest precompiled release is built for 5.4.4.
+
 5.2.1	⚠️ Legacy Support	Older source tag available but no longer actively developed.
+
 Other UE versions	❌ Unsupported	No active builds or testing outside 5.4.4.
 🎥 VLC / libVLC Requirements
 
