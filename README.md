@@ -13,6 +13,51 @@ This plugin enables Unreal Engine to stream video content using VLC Media Player
 
 ---
 
+✅ Supported Platforms & Requirements
+
+The VlcMedia (libVLC) Plugin for Unreal Engine is currently focused on stable Windows x64 support. Additional platforms may be added in the future.
+
+🖥️ Supported Operating Systems
+Platform	Status	Notes
+Windows 10 / Windows 11 (64-bit)	✅ Officially Supported	Fully tested in Editor + Packaged builds. Recommended.
+macOS	❌ Not Supported	No prebuilt libVLC binaries provided; untested.
+Linux	⚠️ Not Supported	May work with custom libVLC builds, but not tested.
+Android	❌ Not Supported	Requires separate libVLC integration (not yet implemented).
+iOS	❌ Not Supported	Unreal + libVLC on iOS requires significant additional work.
+🧩 Supported Unreal Engine Versions
+Unreal Version	Status	Notes
+5.4.4	✅ Primary Target	Latest precompiled release is built for 5.4.4.
+5.2.1	⚠️ Legacy Support	Older source tag available but no longer actively developed.
+Other UE versions	❌ Unsupported	No active builds or testing outside 5.4.4.
+🎥 VLC / libVLC Requirements
+
+A 64-bit VLC installation is required on Windows
+The plugin dynamically loads:
+
+libvlc.dll
+
+libvlccore.dll
+
+If VLC is not installed (or the 32-bit version is installed), Unreal will not be able to initialize the media player.
+
+📦 Distribution Type
+
+Precompiled Plugin (Recommended)
+Download from Releases → drop into
+YourProject/Plugins/VlcMedia/.
+
+Source Version (5.2.1 Only)
+Provided for historical/compatibility reasons; not maintained.
+
+📝 Summary
+
+The current official target configuration is:
+
+Unreal Engine 5.4.4 + Windows 10/11 64-bit + VLC x64 installed
+
+All other platforms are considered untested or unsupported for now.
+
+
 ## 📦 Installation
 
 1. Download or clone the plugin into your project's `Plugins/` folder:
