@@ -1,3 +1,8 @@
+![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)
+![No Redistribution](https://img.shields.io/badge/Redistribution-Prohibited-critical)
+![UE5.4 Supported](https://img.shields.io/badge/UE5.4-Supported-brightgreen)
+
+
 # 📺 VlcMedia Plugin for Unreal Engine [WIP]
 
 This plugin enables Unreal Engine to stream video content using VLC Media Player functionality. Designed for Blueprint-only projects, it includes everything you need to drop in and start playing streaming `.m3u8` sources with no source compilation required.
@@ -158,10 +163,3 @@ Use any of these publicly accessible streams:
 ## Credits
 - Adapted for Unreal Engine 5.4.4 by Jon Edwards with help from his 9 year old son Charles.
 - <a href='https://ko-fi.com/Z8Z81F4OEC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Beer at ko-fi.com' /></a>
-
----
-
-## 📃 License
-
-This plugin is proprietary and intended for distribution via the Unreal Engine Marketplace.  
-All rights reserved. Redistribution or resale outside of the Marketplace is prohibited.
