@@ -160,6 +160,12 @@ Use any of these publicly accessible streams:
 - Check the [Wiki documentation](https://github.com/Jon1969Edwards/VlcMedia_UnrealEngine/wiki/%F0%9F%8F%A0-Home)
 - Check the [VideoLAN documentation](https://www.videolan.org/doc/) for supported formats.
 
-## Credits
-- Adapted for Unreal Engine 5.4.4 by Jon Edwards with help from his 9 year old son Charles.
+🧾 Credits
+
+Developed by Jon Edwards
+
+Special thanks to Charles (age 9) for testing + feature ideas 🎮
+
+Uses VLC backend via VideoLAN / libVLC
+
 - <a href='https://ko-fi.com/Z8Z81F4OEC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Beer at ko-fi.com' /></a>
